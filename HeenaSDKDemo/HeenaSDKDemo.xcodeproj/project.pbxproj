@@ -15,6 +15,8 @@
 		115C4F8A2450B7EF00F6817C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F882450B7EF00F6817C /* LaunchScreen.storyboard */; };
 		115C4F922450B8C600F6817C /* DemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F912450B8C600F6817C /* DemoView.xib */; };
 		115C4F942450B90800F6817C /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4F932450B90800F6817C /* DemoView.swift */; };
+		115C4FB62450C35F00F6817C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4FB52450C35F00F6817C /* Manager.swift */; };
+		115C4FB82450C58900F6817C /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4FB72450C58900F6817C /* OrangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		115C4F8B2450B7EF00F6817C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		115C4F912450B8C600F6817C /* DemoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoView.xib; sourceTree = "<group>"; };
 		115C4F932450B90800F6817C /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		115C4FB52450C35F00F6817C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		115C4FB72450C58900F6817C /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		115C4F7C2450B7EE00F6817C /* HeenaSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				115C4FB92450C5D300F6817C /* Demo */,
 				115C4F7D2450B7EE00F6817C /* AppDelegate.swift */,
 				115C4F7F2450B7EE00F6817C /* SceneDelegate.swift */,
 				115C4F812450B7EE00F6817C /* ViewController.swift */,
@@ -67,10 +72,19 @@
 				115C4F862450B7EF00F6817C /* Assets.xcassets */,
 				115C4F882450B7EF00F6817C /* LaunchScreen.storyboard */,
 				115C4F8B2450B7EF00F6817C /* Info.plist */,
-				115C4F912450B8C600F6817C /* DemoView.xib */,
-				115C4F932450B90800F6817C /* DemoView.swift */,
 			);
 			path = HeenaSDKDemo;
+			sourceTree = "<group>";
+		};
+		115C4FB92450C5D300F6817C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				115C4FB72450C58900F6817C /* OrangeViewController.swift */,
+				115C4FB52450C35F00F6817C /* Manager.swift */,
+				115C4F932450B90800F6817C /* DemoView.swift */,
+				115C4F912450B8C600F6817C /* DemoView.xib */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +161,10 @@
 			files = (
 				115C4F822450B7EE00F6817C /* ViewController.swift in Sources */,
 				115C4F942450B90800F6817C /* DemoView.swift in Sources */,
+				115C4FB82450C58900F6817C /* OrangeViewController.swift in Sources */,
 				115C4F7E2450B7EE00F6817C /* AppDelegate.swift in Sources */,
 				115C4F802450B7EE00F6817C /* SceneDelegate.swift in Sources */,
+				115C4FB62450C35F00F6817C /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

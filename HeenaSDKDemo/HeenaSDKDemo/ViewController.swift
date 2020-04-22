@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.green
         addSubView()
+        Manager.share.openSDK()
     }
 
     func addSubView(){
@@ -22,19 +23,19 @@ class ViewController: UIViewController {
       //  subView.center = CGPoint(x: subView.frame.width/2, y: subView.frame.height/2)
         self.view.addSubview(subView)
         
-        let string = showString()
+        let string = Manager.share.showString()
         print(string)
-        let text = didSomethings()
+        let text = Manager.share.didSomethings()
         print(text)
     }
     
 
-    public func showString() -> String{
-        return UUID().uuidString
-    }
-    public func didSomethings() -> String {
-        return "Yes, i did it "
-    }
+//    public func showString() -> String{
+//        return UUID().uuidString
+//    }
+//    public func didSomethings() -> String {
+//        return "Yes, i did it "
+//    }
 
 }
 
