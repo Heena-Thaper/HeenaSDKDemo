@@ -1,0 +1,6 @@
+framework module Pods_CheckingDmemoWorking {
+  umbrella header "Pods-CheckingDmemoWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

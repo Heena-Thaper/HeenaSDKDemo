@@ -10,8 +10,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.source_files = "HeenaSDKDemo/**/*.{swift}"
   s.swift_version = '4'
-  s.resources = "HeenaSDKDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,plist}"
+  s.resources = "HeenaSDKDemo/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   s.framework = "UIKit"
-  
+  s.dependency 'Alamofire', '~> 4.9.0'
+  s.dependency 'MBProgressHUD', '~> 1.0.0'
 end
 

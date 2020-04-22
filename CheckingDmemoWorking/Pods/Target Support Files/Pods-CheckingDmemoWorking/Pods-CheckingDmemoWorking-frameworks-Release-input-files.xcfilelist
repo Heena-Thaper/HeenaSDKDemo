@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CheckingDmemoWorking/Pods-CheckingDmemoWorking-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HeenaSDKDemo/HeenaSDKDemo.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework

@@ -1,0 +1,6 @@
+framework module HeenaSDKDemo {
+  umbrella header "HeenaSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

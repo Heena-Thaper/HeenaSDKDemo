@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HeenaSDKDemo (0.0.3):
+    - Alamofire (~> 4.9.0)
+    - MBProgressHUD (~> 1.0.0)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - HeenaSDKDemo (= 0.0.3)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HeenaSDKDemo
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HeenaSDKDemo: a078888fa808cb3ce7eb67ad7e58184483192976
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 6314ee26edd9c29cd8b4547e04e5c19a98cc3fa7
+
+COCOAPODS: 1.8.4
