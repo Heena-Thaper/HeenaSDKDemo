@@ -20,8 +20,20 @@ class ViewController: UIViewController {
         guard let subView = Bundle.main.loadNibNamed("DemoView", owner: self, options: nil)?.first as? DemoView else  {return}
         subView.frame =  CGRect(x: 20, y:  subView.frame.height/2, width: self.view.frame.width - 40, height: 100)
       //  subView.center = CGPoint(x: subView.frame.width/2, y: subView.frame.height/2)
-        
         self.view.addSubview(subView)
+        
+        let string = showString()
+        print(string)
+        let text = didSomethings()
+        print(text)
+    }
+    
+
+    public func showString() -> String{
+        return UUID().uuidString
+    }
+    public func didSomethings() -> String {
+        return "Yes, i did it "
     }
 
 }
