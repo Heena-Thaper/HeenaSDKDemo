@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-class Manager: NSObject {
+public class Manager: NSObject {
     
-    static let share = Manager()
+    public static let share = Manager()
     
     private override init(){
         
@@ -26,7 +26,7 @@ class Manager: NSObject {
     
     
     public func openSDK() {
-        let story = UIStoryboard(name: "Main", bundle: nil)
+        let story = UIStoryboard(name: "DemoMain", bundle: nil)
         let vc = story.instantiateViewController(identifier: "OrangeViewController") as? OrangeViewController
         let visibleController = self.topViewController()
         vc?.modalPresentationStyle = .fullScreen

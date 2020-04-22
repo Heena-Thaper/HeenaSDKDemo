@@ -1,0 +1,6 @@
+framework module Pods_HeenaSDKDemo {
+  umbrella header "Pods-HeenaSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		115C4F7E2450B7EE00F6817C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4F7D2450B7EE00F6817C /* AppDelegate.swift */; };
 		115C4F802450B7EE00F6817C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4F7F2450B7EE00F6817C /* SceneDelegate.swift */; };
 		115C4F822450B7EE00F6817C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4F812450B7EE00F6817C /* ViewController.swift */; };
-		115C4F852450B7EE00F6817C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F832450B7EE00F6817C /* Main.storyboard */; };
+		115C4F852450B7EE00F6817C /* DemoMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F832450B7EE00F6817C /* DemoMain.storyboard */; };
 		115C4F872450B7EF00F6817C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F862450B7EF00F6817C /* Assets.xcassets */; };
 		115C4F8A2450B7EF00F6817C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F882450B7EF00F6817C /* LaunchScreen.storyboard */; };
 		115C4F922450B8C600F6817C /* DemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 115C4F912450B8C600F6817C /* DemoView.xib */; };
 		115C4F942450B90800F6817C /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4F932450B90800F6817C /* DemoView.swift */; };
 		115C4FB62450C35F00F6817C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4FB52450C35F00F6817C /* Manager.swift */; };
 		115C4FB82450C58900F6817C /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115C4FB72450C58900F6817C /* OrangeViewController.swift */; };
+		9D6553595292964C0D36B69B /* Pods_HeenaSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC80BDC2B6A6328999ADE52 /* Pods_HeenaSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,7 @@
 		115C4F7D2450B7EE00F6817C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		115C4F7F2450B7EE00F6817C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		115C4F812450B7EE00F6817C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		115C4F842450B7EE00F6817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		115C4F842450B7EE00F6817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DemoMain.storyboard; sourceTree = "<group>"; };
 		115C4F862450B7EF00F6817C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		115C4F892450B7EF00F6817C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115C4F8B2450B7EF00F6817C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +33,9 @@
 		115C4F932450B90800F6817C /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		115C4FB52450C35F00F6817C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		115C4FB72450C58900F6817C /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		4DC80BDC2B6A6328999ADE52 /* Pods_HeenaSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeenaSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AA6AF6390C2E79FFD54885 /* Pods-HeenaSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeenaSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-HeenaSDKDemo/Pods-HeenaSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD35ADF0F913F92B9F0A123 /* Pods-HeenaSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeenaSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-HeenaSDKDemo/Pods-HeenaSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D6553595292964C0D36B69B /* Pods_HeenaSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,8 @@
 			children = (
 				115C4F7C2450B7EE00F6817C /* HeenaSDKDemo */,
 				115C4F7B2450B7EE00F6817C /* Products */,
+				476B457068E707945B2F42CD /* Pods */,
+				C849CA4DA662D88B7A87D766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,7 +75,7 @@
 				115C4F7D2450B7EE00F6817C /* AppDelegate.swift */,
 				115C4F7F2450B7EE00F6817C /* SceneDelegate.swift */,
 				115C4F812450B7EE00F6817C /* ViewController.swift */,
-				115C4F832450B7EE00F6817C /* Main.storyboard */,
+				115C4F832450B7EE00F6817C /* DemoMain.storyboard */,
 				115C4F862450B7EF00F6817C /* Assets.xcassets */,
 				115C4F882450B7EF00F6817C /* LaunchScreen.storyboard */,
 				115C4F8B2450B7EF00F6817C /* Info.plist */,
@@ -87,6 +94,23 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		476B457068E707945B2F42CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52AA6AF6390C2E79FFD54885 /* Pods-HeenaSDKDemo.debug.xcconfig */,
+				FAD35ADF0F913F92B9F0A123 /* Pods-HeenaSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C849CA4DA662D88B7A87D766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC80BDC2B6A6328999ADE52 /* Pods_HeenaSDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 115C4F8E2450B7EF00F6817C /* Build configuration list for PBXNativeTarget "HeenaSDKDemo" */;
 			buildPhases = (
+				E5BA051C4F6BA49982D68DC3 /* [CP] Check Pods Manifest.lock */,
 				115C4F762450B7EE00F6817C /* Sources */,
 				115C4F772450B7EE00F6817C /* Frameworks */,
 				115C4F782450B7EE00F6817C /* Resources */,
+				1A7E8DE016752302FAE6EA78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,11 +174,53 @@
 				115C4F8A2450B7EF00F6817C /* LaunchScreen.storyboard in Resources */,
 				115C4F922450B8C600F6817C /* DemoView.xib in Resources */,
 				115C4F872450B7EF00F6817C /* Assets.xcassets in Resources */,
-				115C4F852450B7EE00F6817C /* Main.storyboard in Resources */,
+				115C4F852450B7EE00F6817C /* DemoMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A7E8DE016752302FAE6EA78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeenaSDKDemo/Pods-HeenaSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeenaSDKDemo/Pods-HeenaSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeenaSDKDemo/Pods-HeenaSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BA051C4F6BA49982D68DC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeenaSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		115C4F762450B7EE00F6817C /* Sources */ = {
@@ -171,12 +239,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		115C4F832450B7EE00F6817C /* Main.storyboard */ = {
+		115C4F832450B7EE00F6817C /* DemoMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				115C4F842450B7EE00F6817C /* Base */,
 			);
-			name = Main.storyboard;
+			name = DemoMain.storyboard;
 			sourceTree = "<group>";
 		};
 		115C4F882450B7EF00F6817C /* LaunchScreen.storyboard */ = {
@@ -306,6 +374,7 @@
 		};
 		115C4F8F2450B7EF00F6817C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AA6AF6390C2E79FFD54885 /* Pods-HeenaSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,13 +386,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clicklabs.Tookan.HeenaSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		115C4F902450B7EF00F6817C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD35ADF0F913F92B9F0A123 /* Pods-HeenaSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,7 +405,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.clicklabs.Tookan.HeenaSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
